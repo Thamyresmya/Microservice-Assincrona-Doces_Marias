@@ -3,7 +3,7 @@
 | -------------  | --- |
 | :sparkles: Nome        | **MicroServices Doces Marias**
 | :label: Tecnologias | Java, Spring Boot, MySQL, Insomnia, Git, Github, RabbitMQ
-| :rocket: URL         | https://github.com/Thamyresmya/_Microservice-Sincrona-Doces_Marias
+| :rocket: URL         | https://github.com/Thamyresmya/Microservice-Assincrona-Doces_Marias
 | :fire: Desafio     | 
 
 <br>
@@ -75,7 +75,7 @@ Consumindo mensagens<br>
 
 ## 📁 Acesso ao projeto
 
-Os códigos podem ser acessados através desse [Link]()
+Os códigos podem ser acessados através desse [Link](https://github.com/Thamyresmya/Microservice-Assincrona-Doces_Marias)
 
 <br>
 
