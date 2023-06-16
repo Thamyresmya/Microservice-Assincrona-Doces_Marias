@@ -85,13 +85,13 @@ public class PagamentoService {
 
     //Para alterar o status quando entrar no circuit breaker
     public void alteraStatus(Long id) {
-        Optional<Pagamento> pagamento = repository.findById(id);    //recupera o pagamento no banco
+        Optional<Pagamento> pagamento = repository.findById(id);      //recupera o pagamento no banco
 
         if (!pagamento.isPresent()) {
             throw new EntityNotFoundException();
         }
 
-        pagamento.get().setStatus(Status.CONFIRMADO_SEM_INTEGRACAO);      // set o status com "confirmado sem integração"
+        pagamento.get().setStatus(Status.CONFIRMADO_SEM_INTEGRACAO);      // seta o status com "confirmado sem integração"
         repository.save(pagamento.get());                                 //salva no banco
 
     }

@@ -71,7 +71,7 @@ public class PagamentoController {
 
     //alterar confirmação do pedido
     @PatchMapping("/{id}/confirmar")
-    @CircuitBreaker(name = "atualizaPedido", fallbackMethod = "pagamentoAutorizadoComIntegracaoPendente")               //anotação do circuit breaker
+    @CircuitBreaker(name = "atualizaPedido", fallbackMethod = "pagamentoAutorizadoComIntegracaoPendente")    //anotação do circuit breaker
     public void confirmarPagamento(@PathVariable @NotNull Long id){             // com parametro do Id
         service.confirmarPagamento(id);                                         // chama o metodo confPagto com o Id
     }

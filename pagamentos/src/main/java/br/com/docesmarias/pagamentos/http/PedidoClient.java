@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @FeignClient("pedidos-ms")                       //comunicacao sincrona com pedidos-ms
 public interface PedidoClient {
-    @RequestMapping(method = RequestMethod.PUT, value = "/pedidos/{id}/pago")  //nome do serviço / tipo da requisição / e o que tem que fazer
+    @RequestMapping(method = RequestMethod.PUT, value = "/pedidos/{id}/pago")  //nome do serviço / tipo da requisição / o que tem que fazer
     void atualizaPagamento(@PathVariable Long id);                             //informar q Id vai direto na rota // no endpoint
 
 
