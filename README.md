@@ -1,7 +1,7 @@
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **MicroServices Doces Marias**
+| :sparkles: Nome        | **Microsserviço - Comunicação Assíncrona - Doces Marias**
 | :label: Tecnologias | Java, Spring Boot, MySQL, Insomnia, Git, Github, RabbitMQ
 | :rocket: URL         | https://github.com/Thamyresmya/Microservice-Assincrona-Doces_Marias
 | :fire: Desafio     | 
@@ -12,7 +12,7 @@
 
 <br>
 
-# Microsserviços Doces Marias
+# Microsserviço Doces Marias
 ## Comunicação Assíncrona
 
 
